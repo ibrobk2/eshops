@@ -13,22 +13,22 @@ const Footer = () => {
     
 
     return (
-        <footer className='bg-[#F3F6Fa]'>
+        <footer className='bg-[#000]'>
             <div className='w-[85%] flex flex-wrap mx-auto border-b py-16 md-lg:pb-10 sm:pb-6'>
                 <div className='w-3/12 lg:w-4/12 sm:w-full'>
                     <div className='flex flex-col gap-3'>
-                        <img className='w-[190px] h-[70x]' src="http://localhost:3000/images/logo.png" alt="logo" />
+                        {/* <img className='w-[190px] h-[70x]' src="http://localhost:3000/images/logo.png" alt="logo" /> */}
                         <ul className='flex flex-col gap-2 text-slate-600'>
-                            <li>Address : Rangpur , Kuigram</li>
-                            <li>Phone : 5873458345</li>
-                            <li>Email : farid@gmail.com</li>
+                            <li>Address : xxxxxxxxxxx</li>
+                            {/* <li>Phone : 5873458345</li>
+                            <li>Email : farid@gmail.com</li> */}
                         </ul>
                     </div>
                 </div>
                 <div className='w-5/12 lg:w-8/12 sm:w-full'>
                     <div className='flex justify-center sm:justify-start sm:mt-6 w-full'>
                         <div>
-                            <h2 className='font-bold text-lg mb-2'>Usefull links</h2>
+                            <h2 className='font-bold text-lg mb-2'>Customer Service</h2>
                             <div className='flex justify-between gap-[80px] lg:gap-[40px]'>
                                 <ul className='flex flex-col gap-2 text-slate-600 text-sm'>
                                     <li>
@@ -94,7 +94,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='w-[85%] flex flex-wrap justify-center items-center text-slate-600 mx-auto py-5 text-center'>
-                <span>Copiright ©2023 All rights reserved | mady by <a className='text-blue-500 underline' href="">@Learn with Project</a></span>
+                <span>Copiright ©2024 Maqbool <a className='text-blue-500 underline' href=""></a></span>
             </div>
 
             <div className='hidden fixed md-lg:block w-[50px] bottom-3 h-[110px] right-2 bg-white rounded-full p-2'>
